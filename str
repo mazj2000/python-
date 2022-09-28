@@ -1,0 +1,9 @@
+s = 'Python-中文'
+print(s)
+
+print(s.encode('utf-8'))
+
+b = s.encode('utf-8')
+print(b,'\n')
+
+print(b.decode('utf-8'))
